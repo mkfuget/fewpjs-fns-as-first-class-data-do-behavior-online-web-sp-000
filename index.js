@@ -14,6 +14,7 @@ function greet(time)
 {
   var time_array = time.split(":")
   var hour = parseInt(time_array[0])
+  console.log(hour)
   if (hour < 12)
   {
     return "Good Morning"
