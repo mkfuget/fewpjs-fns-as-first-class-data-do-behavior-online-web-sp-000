@@ -32,6 +32,6 @@ function greet(time)
 function displayMessage(inputText)
 {
   var test = document.getElementById('greeting')
-  test.innerText = test
-  console.log(test)
+  test.innerText = inputText
+  console.log(test.innerText)
 }
