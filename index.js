@@ -19,9 +19,9 @@ function greet(time)
   {
     return "Good Morning"
   }
-  elseif (hour < 17)
+  else if (hour < 17)
   {
-    return "Good Morning"
+    return "Good Afternoon"
   }
   else
   {
